@@ -1,12 +1,16 @@
-
+import React from "react";
 //import './App.css';
 
 function App() {
   return (
-    <titulo/>
+    <React.Fragment>
+      {/**<titulo/>**/}
+      <h1>LEBRIJA COMIDAS RAPIDAS</h1>
     <buscador/>
+    <input placeholder="Hamburguesa"></input>
     <slider/>
     <card/>
+    </React.Fragment>
   );
 }
 
