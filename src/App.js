@@ -1,13 +1,15 @@
 import React from "react";
+import { Titulo } from "./Titulo";
+import { Buscador } from "./Buscador";
 //import './App.css';
 
 function App() {
   return (
     <React.Fragment>
-      {/**<titulo/>**/}
-      <h1>LEBRIJA COMIDAS RAPIDAS</h1>
-    <buscador/>
-    <input placeholder="Hamburguesa"></input>
+    <Titulo/>
+      
+    <Buscador/>
+    
     <slider/>
     <card/>
     </React.Fragment>
