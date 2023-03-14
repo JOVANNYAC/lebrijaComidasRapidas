@@ -1,6 +1,7 @@
 import React from "react";
 import { Titulo } from "./Titulo";
 import { Buscador } from "./Buscador";
+import {Slider} from "./Slider"
 //import './App.css';
 
 function App() {
@@ -10,8 +11,8 @@ function App() {
       
     <Buscador/>
     
-    <slider/>
-    <card/>
+    <Slider/>
+    {/**<Card/> */}
     </React.Fragment>
   );
 }
